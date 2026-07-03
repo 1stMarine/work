@@ -1,0 +1,1537 @@
+<html><head>
+			<meta name="SiteName" content="郑州市教育局">
+	<meta name="SiteDomain" content="zzjy.zhengzhou.gov.cn">
+	<meta name="SiteIDCode" content="4101000019">
+	<link rel="stylesheet" type="text/css" href="r/cms/global/float/float.css">
+	<script src="https://hm.baidu.com/hm.js?3916fbf06400bbbf67a1f28f721a5cb3"></script><script src="r/cms/global/float/float.js" type="text/javascript"></script>
+		<script type="text/javascript">
+		(function(){
+			var floatPosition = {
+				left: 0,
+				bottom: 0
+			}
+			var floats = [
+				{img:"r/cms/global/float/images/gwy_hlwdc_yshj_20240201a.jpg", url:"https://tousu.www.gov.cn/dc/2024yxyshjjs/index.htm", title:"国务院“互联网+督查”平台面向社会征集关于影响营商环境建设问题线索"}
+			]
+			indexFloats(floats, floatPosition, true, 5000);
+		})();
+		
+		function getByClass(className, parentObj){
+			if (!parentObj) {
+				parentObj = document;
+			}
+			var eles = parentObj.getElementsByTagName('*');
+			var result = new Array();
+			for(var i =0; i<eles.length; i++){
+				var classNames = eles[i].className.toString();
+				if(classNames.split(' ').indexOf(className) > -1){
+					result.push(eles[i]);
+				}
+			}
+			return result;
+		}
+		
+		document.addEventListener("DOMContentLoaded", function() {
+			setTimeout(function() {
+				var floats = getByClass("index-float");
+				for(var i = 0; i < floats.length; i++){
+					var close = floats[i].getElementsByTagName("em")[0];
+					if(close){
+						close.setAttribute("tabindex", "0");
+						close.setAttribute("title", "关闭");
+						close.setAttribute("aria-label", "关闭按钮，按回车键关闭飘窗");
+						close.onkeydown = function(event){
+							if(event.keyCode == 13){
+								this.parentNode.remove();
+								initFloats();
+							}
+						}
+					}
+				}
+			}, 1000);
+		});
+		</script>
+		<script type="text/javascript">
+			var hnzwfw_url = "https://zz.hnzwfw.gov.cn";
+			var hnzwfw_float = {
+				left: 0,
+				bottom: 230
+			}
+			hnzwfw_float.padding = 5;
+			hnzwfw_float.width = "300px";
+			hnzwfw_float.background = "#ffffff"
+			hnzwfw_float.boxSizing = "border-box";
+			hnzwfw_float.border = "#a5a5a5 1px solid";
+			indexFloat("https://static.hnzwfw.gov.cn/lib/images/header-logo.png", hnzwfw_url, "河南政务服务网", true, hnzwfw_float, "hnzwfw-float");
+			indexFloatReady(function(){
+				$.ajax({
+					type: "get",
+					url: "https://interface.hnzwfw.gov.cn/channel/search?areaCode=410100000000",
+					dataType: "json",
+					data: {},
+					success: function(data){
+						for (var i in data.obj.deps) {
+							var obj = data.obj.deps[i];
+							if(obj.orgCode == '001003008002010'){
+								hnzwfw_url = obj.link;
+								break;
+							}
+						}
+						$(".hnzwfw-float>a").attr("id","imghnzwfw2021");
+						$(".hnzwfw-float>a").attr("href", encodeURI(hnzwfw_url));
+						$("#hnzwfw2021").attr("href", encodeURI(hnzwfw_url));
+						$("#hnzwfw2021").attr("target", "_blank");
+					}
+				});
+			});
+		</script>
+		<script src="https://www.hnzwfw.gov.cn/service/lib/tyrk/unified_entrance.js" language="JavaScript"></script>
+<script type="text/javascript">
+</script>
+<script src="r/cms/global/common/pip_ariaw_plug/pip_ariaw_plug.js"></script>
+<script type="text/javascript" src="r/cms/global/redirect.js"></script>
+
+<script src="r/cms/global/ariaw/dist/ariaw.all.bundle.js?20250123" ariaw-modules="all, shortcut, concise, concise.fontzoom, pip.help" ariaw-tts-automute="" ariaw-tts="elephant" ariaw-tts-no-default="" ariaw-key="5Y0SNZ0XNLvmAbgS" ariaw-modules-except="logo" concise-styles="" ariaw-palette-background-color="" ariaw-min-chars-length="2" ariaw-selected-style="outline: 3px solid green !important;outline-offset: -2px !important;border-radius: 3px;" ariaw-region-style="outline: 2px solid #ffab00!important;outline-offset: -1px; border-radius: 3px;"></script>
+<script src="r/cms/global/ariaw/pip/ariaw.tts.pip.bundle.js?20241119"></script>
+<script src="r/cms/global/ariaw/pip/ariaw.help.js?20231226"></script>
+<script src="r/cms/global/ariaw/pip/pip.ariaw.help.js?20221212"></script>
+<script src="r/cms/global/ariaw/pip/pip.triggers.bundle.js?20230919" pip-triggers-label="无障碍辅助功能，开启和退出快捷键，Ctrl+Alt+Q" pip-triggers-place="#pip-triggers-container"></script><style>.pip-triggers {display: inline-block;user-select: none;}.pip-triggers>em {display: block;font-style: normal;}.pip-triggers>em>i {display: inline-block;width: 20px;height: 20px;padding: 2px;color: #444;vertical-align: top;text-align: center;}.pip-triggers>em>i:nth-child(n+2) {margin-left: 3px;}.pip-triggers>em>i.pip-triggers-on {color: #eee;background-color: #444;border-radius: 5px;}.pip-triggers>em>i>svg {display: block;width: 20px;height: 20px;}.pip-triggers>div {position: relative;z-index: 99999999;visibility: hidden;transform: scale(0);transition: all 0.1s;}.pip-triggers.pip-triggers-on>div {visibility: visible;transform: inherit;}.pip-triggers>div>em {position: absolute;top: -10px;border: 10px solid transparent;border-bottom-color: #444;z-index: 1;background-color: transparent !important;}.pip-triggers>div>div {position: absolute;top: 0;padding-top: 10px;}.pip-triggers>div>div>div {position: relative;background-color: #444;border: 1px solid #444;border-radius: 8px;min-width: 128px;box-shadow: 1px 1px 3px 1px rgb(255 255 255 / 50%);padding: 12px;}.pip-triggers>div>div>div>i {position: absolute;top: 4px;right: 4px;padding: 4px;display: block;cursor: pointer;vertical-align: top;border-radius: 16px;}.pip-triggers>div>div>div>i:hover {background-color: rgba(255,255,255,0.2);}.pip-triggers>div>div>div>i>svg {display: block;color: #eee;width: 24px;height: 24px;}.pip-triggers>div>div>div>em {display: inline-block;color: #ccc;}.pip-triggers>div>div>div>em:hover {cursor: pointer;color: white;}.pip-triggers>div>div>div>em>i {display: inline-block;border: 1px solid #ccc;border-radius: 4px;width: 16px;height: 16px;}.pip-triggers>div>div>div>em>i>svg {display: none;width: 16px;height: 16px;}.pip-triggers>div>div>div>em.pip-triggers-on>i>svg {display: block;}.pip-triggers>div>div>div>em>span {display: inline-block;font-style: normal;font-size: 16px;line-height: 16px;vertical-align: top;margin-left: 4px;}.pip-triggers>div>div>div>div>div {display: block;margin-top: 8px;background-color: orange;border: 1px solid orange;color: black;line-height: 32px;border-radius: 5px;overflow: hidden;cursor: pointer;}.pip-triggers>div>div>div>div>div:hover {background-color: #ffb631;}.pip-triggers>div>div>div>div>div>i {display: block;float: left;box-sizing: border-box;padding: 5px;border-right: 1px solid rgba(0,0,0,0.1);}.pip-triggers>div>div>div>div>div>em {display: none;float: right;box-sizing: border-box;padding: 5px;border-left: 1px solid rgba(0,0,0,0.1);}.pip-triggers>div>div>div>div>div.pip-triggers-on>em {display: block;background-color: rgba(255,255,255,0.3);}.pip-triggers>div>div>div>div>div>i>svg, .pip-triggers>div>div>div>div>div>em>svg {display: block;width: 22px;height: 22px;}.pip-triggers>div>div>div>div>div>div {padding: 0 16px;white-space: nowrap;font-size: 20px;margin: 0 33px;}</style>
+<script src="r/cms/global/ariaw/pip/ariaw.fixed.js?20250328" defer="defer"></script>
+
+
+
+
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta http-equiv="keywords" content="郑州教育,郑州教育局,郑州市教育局">
+		<meta http-equiv="description" content="">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="renderer" content="webkit">
+		<title role="document" aria-description="您已进入郑州市教育局网站首页">郑州市教育局</title>
+		<link rel="stylesheet" type="text/css" href="r/cms/jyj/cn/style/css.css?_=v20241115">
+		<link type="text/css" rel="stylesheet" href="r/cms/owl.carousel.min.css">
+		<link type="text/css" rel="stylesheet" href="r/cms/owl.theme.default.min.css">
+		<link type="text/css" rel="stylesheet" href="r/cms/jyj/cn/style/concise.css?_=v20241115" media="unknown">
+		
+		<script type="text/javascript" src="r/cms/jquery.min.js"></script>
+		<script type="text/javascript" src="r/cms/jquery.cookie.js"></script>
+		<script type="text/javascript" src="r/cms/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="r/cms/jyj/cn/js/tabs.js"></script>
+		<script type="text/javascript" src="r/cms/jyj/cn/js/dudu.js"></script>
+		<script type="text/javascript" src="r/cms/analytics.js"></script>
+		<style type="text/css">
+		/* ===== 整体放大 + 顶部布局修复 ===== */
+		body{ font-size:18px; }
+		.main-wrap{ width:1200px; }
+
+		/* 顶部栏 flex 单行布局 */
+		.max-wrap.top-bar > .main-wrap{
+			display:flex; align-items:center; flex-wrap:nowrap;
+		}
+		.max-wrap.top-bar > .main-wrap > div{ float:none; }
+		.max-wrap.top-bar .nav-bar{ flex:1 1 auto; min-width:0; }
+		.max-wrap.top-bar .version-links{
+			flex:0 0 auto; margin:0 10px; white-space:nowrap;
+		}
+		.max-wrap.top-bar .top-link{
+			flex:0 0 auto; margin-top:0; padding-left:5px; white-space:nowrap;
+		}
+
+		/* 菜单加高加大 */
+		#menu > ul > li > a{
+			height:56px; line-height:56px; padding:0 20px; font-size:1.1em;
+		}
+		#menu > ul > li ul{ top:56px; font-size:0.95em; line-height:34px; }
+		#menu > ul > li ul a{ padding:0.4em 0; }
+
+		/* 搜索栏适配 */
+		.find-bar input{ height:30px; line-height:30px; }
+		.find-bar input[type="text"]{ width:120px; font-size:0.85em; }
+		.find-bar input[type="submit"]{ width:30px; }
+
+		/* 顶部链接字号 */
+		.top-bar .version-links a{ font-size:15px; line-height:34px; }
+		.top-link{ font-size:0.95em; }
+		.top-link .user > a{ font-size:15px; }
+
+		/* banner 加高 */
+		.banner-bar{ height:560px; }
+		.banner-bar.sub-banner{ height:240px; }
+
+		/* 列宽适配 */
+		.col-a-narrow{ width:500px; }
+		.col-a-wide{ width:680px; }
+		.col-b-wide{ width:120px; padding:50px 0 50px 15px; }
+
+		/* 信息公开背景高度 */
+		.wrap-bg01{ height:320px; }
+
+		/* 新闻列表字号 */
+		.news-list a{ font-size:0.95em; }
+		.news-list.index-has-icon a span{ font-size:0.95em; }
+		.node-list .news-list a em{ font-size:0.85em; }
+
+		/* 图标列表文字 */
+		.icon-list li span{ font-size:0.95em; }
+		.icon-list li em{ font-size:0.85em; }
+
+		/* 焦点图 */
+		.focus-pic{ width:500px; }
+		.focus-img.owl-carousel .item{ padding-top:60%; }
+
+		/* 通知 */
+		.notice{ font-size:1em; height:34px; line-height:34px; }
+
+		/* 标题 */
+		.big-title{ font-size:1.4em; }
+		.box-01 .title{ font-size:1.2em; }
+		.small-title .title-name{ font-size:1.05em; }
+
+		/* 底部版权 */
+		.copyright{ font-size:0.95em; }
+
+		/* 响应式 - 小屏幕保持可用 */
+		@media screen and (max-width:1200px){
+			.main-wrap{ width:1000px; }
+			.max-wrap.top-bar > .main-wrap{ flex-wrap:wrap; }
+		}
+		@media screen and (max-width:1000px){
+			.main-wrap{ width:100%; }
+			body{ font-size:16px; }
+			.focus-pic{ width:100%; float:none; }
+			.col-a-narrow, .col-a-wide, .col-b-wide{ width:100%; display:block; }
+		}
+	</style>
+	</head>
+<body>
+<style type="text/css">
+	.top-link a {
+		color:#fff;
+	}
+@media screen and (max-width:1000px) {
+	.top-link a {
+		color:#333;
+	}
+}
+</style>
+	<script src="r/cms/jyj/cn/js/less.version.js" type="text/javascript"></script>
+	<div class="body">
+
+<div class="max-wrap top-bar">
+	<div class="small-logo">
+	<a href="" title="郑州市教育局网站logo" target="_self" aria-roledescription="图片链接,在指定窗口中打开"><img src="r/cms/jyj/cn/images/logo.png"></a>
+</div>
+	<div class="main-wrap clearfix">
+
+		<div class="nav-bar">
+			<div class="main-nav">
+				<div id="menu" class="clearfix" role="region" aria-label="导航区" aria-description="">
+					<ul class="clearfix">
+						<li class="focus">
+							<a href="" class="focus" target="_self" aria-roledescription="链接,在指定窗口中打开">首页</a>
+						</li>
+						<li>
+							<a href="https://zzjy.zhengzhou.gov.cn/xxgk/index.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">信息公开</a>
+							<ul>
+								<li style="display: none;">
+									<a href="https://zzjy.zhengzhou.gov.cn/xxgk/index.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开"></a>
+								</li>
+								<li>
+									<a href="jgld/index.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">机构信息</a>
+								</li>
+								<li>
+									<a href="xxgkzn/index.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">政府信息公开</a>
+								</li>
+								<li>
+									<a href="https://zzjy.zhengzhou.gov.cn/wsgs/index.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">网上公示</a>
+								</li>
+								<li>
+									<a href="zszc/index.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">重点领域公开</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="https://zzjy.zhengzhou.gov.cn/jyfw/index.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">教育服务</a>
+							<ul>
+								<li style="display: none;">
+									<a href="https://zzjy.zhengzhou.gov.cn/jyfw/index.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开"></a>
+								</li>
+								<li>
+									<a href="zz/index.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">考试服务</a>
+								</li>
+								<li>
+									<a href="jszl/index.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">教师服务</a>
+								</li>
+								<li>
+									<a href="xwtz/index.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">校外教育</a>
+								</li>
+								<li>
+									<a href="mtzgg/index.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">民办教育</a>
+								</li>
+								<li>
+									<a href="zcfg/index.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">教育资助</a>
+								</li>
+								<li>
+									<a href="https://zz.hnzwfw.gov.cn/zzzw/item/deptInfo.do?deptUnid=001003008002010&amp;deptName=%E5%B8%82%E6%95%99%E8%82%B2%E5%B1%80&amp;areaCode=410100000000&amp;region=410100000000&amp;creditCode=11410100005252266D" target="_self" aria-roledescription="链接,在指定窗口中打开">政务服务</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="http://public.zhengzhou.gov.cn/?d=6" target="_self" aria-roledescription="链接,在指定窗口中打开">政务公开</a>
+						</li>
+						<li>
+							<a id="hnzwfw2021" href="https://zz.hnzwfw.gov.cn/zzzw/item/deptInfo.do?deptUnid=001003008002010&amp;deptName=%E5%B8%82%E6%95%99%E8%82%B2%E5%B1%80&amp;areaCode=410100000000&amp;region=410100000000&amp;creditCode=11410100005252266D" target="_blank" aria-roledescription="链接,在指定窗口中打开">政务服务</a>
+						</li>
+						<li>
+							<a href="https://zzjy.zhengzhou.gov.cn/dtxx/index.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">动态信息</a>
+							<ul>
+								<li style="display: none;">
+									<a href="https://zzjy.zhengzhou.gov.cn/dtxx/index.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开"></a>
+								</li>
+								<li>
+									<a href="gzdt/index.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">教育新闻</a>
+								</li>
+								<li>
+									<a href="https://zzjy.zhengzhou.gov.cn/tzgg/index.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">通知公告</a>
+								</li>
+								<li>
+									<a href="https://zzjy.zhengzhou.gov.cn/szxw/index.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">时政要闻</a>
+								</li>
+								<li>
+									<a href="https://zzjy.zhengzhou.gov.cn/mtjj/index.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">媒体聚焦</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="zsxx.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">查询向导</a>
+						</li>
+					</ul>
+				</div>
+				<div class="mobile-menu" aria-label="导航"></div>
+			</div>
+			<script type="text/javascript">
+				(function() {
+					if(document.querySelector && document.addEventListener) {
+						var nav = document.querySelector("#menu");
+						var trigger = nav.parentNode;
+						var fn = function(event) {
+							if(nav.style.display == "") {
+								nav.style.display = "block";
+								document.addEventListener("click", fn);
+							} else {
+								nav.style.display = "";
+								document.removeEventListener("click", fn);
+							}
+							event.stopPropagation();
+						}
+						trigger.addEventListener("click", fn);
+					}
+				})();
+				(function(){
+				    $('#menu>ul>li').each(function(index){
+			    		$(this).find('>a:first').attr('href',$(this).find('ul>li>a:first').attr('href'));
+				    });
+				    $('#menu>ul>li').on("focusin", function(){
+				        $('#menu>ul>li').removeClass('hover');
+				        $(this).addClass('hover');
+				    });
+				    $('#menu>ul>li:last-child').find("li:last-child>a").on("blur", function(){
+				        $('#menu>ul>li').removeClass('hover');
+				    });
+				})();
+				initTabs($("#menu>ul>li"), "", "focus", "mouseenter", 0, null, null);
+			</script>
+		</div>
+		
+		<div class="version-links clearfix">
+			<form action="/search.jspx" method="get" class="find-bar clearfix" onsubmit="return search_submit(this)" aria-label="全文检索" aria-description="">
+				<input type="text" placeholder="请输入关键字" name="q" value="">
+				<input type="submit" value="">
+			</form>
+			<script type="text/javascript">
+				var search_submit = function(form){
+					var input = form.querySelector("input[name=q]");
+					var value = input.value.replace(/(^\s*)|(\s*$)/g, "");
+					if(value) {
+						input.value = value;
+						var date = new Date();
+						date.setTime(date.getTime() + 10000);
+						jQuery.cookie("s", value, {expires:date});
+						return true;
+					} else {
+						return false;
+					}
+				}
+			</script>
+			<a class="app" target="_self" href="http://sjkhd.zzedu.net.cn/#xw" aria-roledescription="链接,在指定窗口中打开">新闻客户端</a>
+			
+			<script src="r/cms/accessible.js" type="text/javascript"></script>
+		</div>
+		<div class="top-link">
+			<span id="pip-triggers-container"><div class="pip-triggers"><em tabindex="0" aria-label="无障碍辅助功能，开启和退出快捷键，Ctrl+Alt+Q"><i><svg viewBox="0 0 512 512" fill="currentColor"><path d="M510.3 421.9c-5.594-16.75-23.53-25.84-40.47-20.22l-19.38 6.438l-41.7-99.97C403.9 295.1 392.2 288 379.1 288h-97.78l-10.4-48h65.11c17.69 0 32-14.31 32-32s-14.31-32-32-32h-78.98L255.6 169.2C251.8 142.1 227.2 124.8 201.2 128.5C174.1 132.2 156.7 156.5 160.5 182.8l23.68 140.4C185.8 339.6 199.6 352 216 352h141.4l44.86 107.9C407.3 472.3 419.3 480 432 480c3.344 0 6.781-.5313 10.12-1.656l48-16C506.9 456.8 515.9 438.7 510.3 421.9zM160 464c-61.76 0-112-50.24-112-112c0-54.25 38.78-99.55 90.06-109.8L130.1 195C56.06 209 0 273.9 0 352c0 88.37 71.63 160 160 160c77.4 0 141.9-54.97 156.8-128h-49.1C252.9 430.1 210.6 464 160 464zM192 96c26.51 0 48-21.49 48-48S218.5 0 192 0S144 21.49 144 48S165.5 96 192 96z"></path></svg></i><i><svg viewBox="0 0 1024 1024" fill="currentColor"><path d="M585.73024 209.177169a104.588584 104.588584 0 1 0-104.64008-104.691577 104.64008 104.64008 0 0 0 104.64008 104.691577zM895.273313 575.932411a139.039477 139.039477 0 0 0-139.039477-139.039477 142.747196 142.747196 0 0 0-22.709781 1.85386 44.492633 44.492633 0 0 0-20.598442-22.709781L577.027399 342.655067l-128.740257-193.007393a49.384762 49.384762 0 0 0-46.655469-20.598441 65.503042 65.503042 0 0 0-27.601911 10.814182c-58.757053 34.3479-110.20166 85.174554-151.038069 150.677596-39.90948 64.061152-69.725723 142.335228-85.998491 232.916872-8.548353 47.633895-6.540005 62.413276 2.78079 109.171737l31.670103 158.813981-41.711843 178.63998c-5.510083 23.636711 11.071662 46.758461 36.922705 51.496102a50.929645 50.929645 0 0 0 9.887252 1.081418h17.405683c23.997184 0 43.874679-16.11828 47.376414-37.231682l35.738295-153.561378a182.399195 182.399195 0 0 0 1.132914-78.274076l-21.782851-109.326225 9.320795-5.973548 62.722253 160.152879-12.462057 177.71305a44.441137 44.441137 0 0 0 44.750113 46.346492H381.033232c26.468997 0 47.942872-19.568519 47.942872-43.720191l10.608197-151.450038a182.141715 182.141715 0 0 0-12.307569-81.054865L355.800142 564.088308a583.862811 583.862811 0 0 1 38.3131-149.956651 484.629821 484.629821 0 0 1 53.761931-97.173146l51.496103 77.604627a46.346492 46.346492 0 0 0 18.332613 17.714659l133.889866 72.094544a138.421524 138.421524 0 0 0-34.450892 91.508574 41.196882 41.196882 0 0 0 82.393764 0 56.645713 56.645713 0 0 1 113.291426 0v429.940961a18.023636 18.023636 0 0 0 18.023635 18.023636h46.346493a17.97214 17.97214 0 0 0 18.023636-18.023636v-429.992457z"></path></svg></i></em><div><em style="left: 15.5px;"></em><div style="right: 0px;"><div><i tabindex="0" title="关闭" aria-label="按钮:关闭"><svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></i><em tabindex="0" aria-label="复选框:不再提示,未选中" style="visibility: hidden;"><i><svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="3" stroke-linecap="round" fill="none"><polyline points="20 6 9 17 4 12"></polyline></svg></i><span aria-hidden="true">不再提示</span></em><div><div tabindex="0" aria-label="按钮:开启无障碍工具"><i><svg viewBox="0 0 512 512" fill="currentColor"><path d="M510.3 421.9c-5.594-16.75-23.53-25.84-40.47-20.22l-19.38 6.438l-41.7-99.97C403.9 295.1 392.2 288 379.1 288h-97.78l-10.4-48h65.11c17.69 0 32-14.31 32-32s-14.31-32-32-32h-78.98L255.6 169.2C251.8 142.1 227.2 124.8 201.2 128.5C174.1 132.2 156.7 156.5 160.5 182.8l23.68 140.4C185.8 339.6 199.6 352 216 352h141.4l44.86 107.9C407.3 472.3 419.3 480 432 480c3.344 0 6.781-.5313 10.12-1.656l48-16C506.9 456.8 515.9 438.7 510.3 421.9zM160 464c-61.76 0-112-50.24-112-112c0-54.25 38.78-99.55 90.06-109.8L130.1 195C56.06 209 0 273.9 0 352c0 88.37 71.63 160 160 160c77.4 0 141.9-54.97 156.8-128h-49.1C252.9 430.1 210.6 464 160 464zM192 96c26.51 0 48-21.49 48-48S218.5 0 192 0S144 21.49 144 48S165.5 96 192 96z"></path></svg></i><em><svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="3" stroke-linecap="round" fill="none"><polyline points="20 6 9 17 4 12"></polyline></svg></em><div aria-hidden="true">无障碍</div></div><div tabindex="0" aria-label="按钮:进入适老版页面"><i><svg viewBox="0 0 1024 1024" fill="currentColor"><path d="M585.73024 209.177169a104.588584 104.588584 0 1 0-104.64008-104.691577 104.64008 104.64008 0 0 0 104.64008 104.691577zM895.273313 575.932411a139.039477 139.039477 0 0 0-139.039477-139.039477 142.747196 142.747196 0 0 0-22.709781 1.85386 44.492633 44.492633 0 0 0-20.598442-22.709781L577.027399 342.655067l-128.740257-193.007393a49.384762 49.384762 0 0 0-46.655469-20.598441 65.503042 65.503042 0 0 0-27.601911 10.814182c-58.757053 34.3479-110.20166 85.174554-151.038069 150.677596-39.90948 64.061152-69.725723 142.335228-85.998491 232.916872-8.548353 47.633895-6.540005 62.413276 2.78079 109.171737l31.670103 158.813981-41.711843 178.63998c-5.510083 23.636711 11.071662 46.758461 36.922705 51.496102a50.929645 50.929645 0 0 0 9.887252 1.081418h17.405683c23.997184 0 43.874679-16.11828 47.376414-37.231682l35.738295-153.561378a182.399195 182.399195 0 0 0 1.132914-78.274076l-21.782851-109.326225 9.320795-5.973548 62.722253 160.152879-12.462057 177.71305a44.441137 44.441137 0 0 0 44.750113 46.346492H381.033232c26.468997 0 47.942872-19.568519 47.942872-43.720191l10.608197-151.450038a182.141715 182.141715 0 0 0-12.307569-81.054865L355.800142 564.088308a583.862811 583.862811 0 0 1 38.3131-149.956651 484.629821 484.629821 0 0 1 53.761931-97.173146l51.496103 77.604627a46.346492 46.346492 0 0 0 18.332613 17.714659l133.889866 72.094544a138.421524 138.421524 0 0 0-34.450892 91.508574 41.196882 41.196882 0 0 0 82.393764 0 56.645713 56.645713 0 0 1 113.291426 0v429.940961a18.023636 18.023636 0 0 0 18.023635 18.023636h46.346493a17.97214 17.97214 0 0 0 18.023636-18.023636v-429.992457z"></path></svg></i><em><svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="3" stroke-linecap="round" fill="none"><polyline points="20 6 9 17 4 12"></polyline></svg></em><div aria-hidden="true">适老版</div></div></div></div></div></div></div></span>
+			<div class="fk">
+				<a id="chinese" data-default="简体" data-changed="繁體" href="javascript:;" target="_self" aria-roledescription="链接,在指定窗口中打开">繁體</a>
+			</div>
+			<script src="r/cms/chinese.js" type="text/javascript"></script>
+			<script type="text/javascript">
+                initChinese(document.querySelector("#chinese"), ["title"]);
+			</script>
+				<style type="text/css">
+					.user{
+						float: right;
+						position: relative;
+					}
+					.user>.login-others{
+						margin-left: 15px;
+					}
+					.login-others>ul{
+						display:none;
+						font-size:16px;
+						font-weight:normal;
+						position: absolute;
+						width: 143px;
+						background: #fff;
+						z-index: 900;
+						box-sizing: border-box;
+						-webkit-box-shadow: 0 3px 4px rgba(0,0,0,0.18);
+						box-shadow: 0 3px 4px rgba(0,0,0,0.18);
+						-webkit-transition: -webkit-box-shadow .2s;
+						transition: box-shadow .2s;
+						border-top: 1px solid #e8e8e8;
+						right: -57px;
+					}
+					.login-others:hover>ul{
+						display:block;
+					}
+					.login-others>ul>*{
+						display: block!important;
+						color: #333;
+						padding: 0 20px;
+						margin:0;
+						box-sizing: border-box;
+					}
+					.login-others>ul>a:hover{
+						background:#4eaae4;
+						color:#fff;
+						text-decoration: none!important;
+					}
+					.login-others>ul>*:hover i path{
+						fill:#fff;
+					}
+					.login-others>ul>* i svg{
+						vertical-align: middle;
+					}
+					.login-others>ul>span{
+						line-height: 1.5em;
+						text-align: center;
+						cursor: default;
+						padding: 8px 5px;
+						border-bottom: 1px solid #e8e8e8;
+					}
+					.login-others span svg{
+						vertical-align: middle;
+					}
+					.login-others>ul>*:before{
+						display:none;
+					}
+					@media screen and (max-width: 1000px) {
+						.user{
+							padding-right:10px;
+						}
+					}
+				</style>
+				<div class="user clearfix" aria-label="登录" tabindex="1">
+										<a href="javascript:login()" class="login" target="_self" aria-roledescription="链接,在指定窗口中打开">登录</a>
+					<script type="text/javascript">
+						function login(){
+							var loginUrl="/account/login.jspx";
+							location.href=loginUrl;
+						}
+					</script>
+				</div>
+		</div>
+	</div>
+</div><div class="max-wrap banner-bar">
+	<div class="main-wrap clearfix">
+		<div class="logo-bar clearfix">
+			<div class="logo">
+				<a href="" title="郑州市教育局网站logo" style="display:block;" target="_self" aria-roledescription="图片链接,在指定窗口中打开"><img src="r/cms/jyj/cn/images/logo.png"></a>
+			</div>
+		</div>
+		<style type="text/css">
+			.owl-carousel .owl-wrapper:after {
+				content: ".";
+				display: block;
+				clear: both;
+				visibility: hidden;
+				line-height: 0;
+				height: 0;
+			}
+			/* display none until init */
+			
+			.owl-carousel {
+				display: none;
+				position: relative;
+				width: 100%;
+				-ms-touch-action: pan-y;
+			}
+			
+			.owl-carousel .owl-wrapper {
+				display: none;
+				position: relative;
+				-webkit-transform: translate3d(0px, 0px, 0px);
+			}
+			
+			.owl-carousel .owl-wrapper-outer {
+				overflow: hidden;
+				position: relative;
+				width: 100%;
+			}
+			
+			.owl-carousel .owl-wrapper-outer.autoHeight {
+				-webkit-transition: height 500ms ease-in-out;
+				-moz-transition: height 500ms ease-in-out;
+				-ms-transition: height 500ms ease-in-out;
+				-o-transition: height 500ms ease-in-out;
+				transition: height 500ms ease-in-out;
+			}
+			
+			.owl-carousel .owl-item {
+				float: left;
+			}
+			
+			.owl-controls .owl-page,
+			.owl-controls .owl-buttons div {
+				cursor: pointer;
+			}
+			
+			.owl-controls {
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+				-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+			}
+			/* fix */
+			
+			.owl-carousel .owl-wrapper,
+			.owl-carousel .owl-item {
+				-webkit-backface-visibility: hidden;
+				-moz-backface-visibility: hidden;
+				-ms-backface-visibility: hidden;
+				-webkit-transform: translate3d(0, 0, 0);
+				-moz-transform: translate3d(0, 0, 0);
+				-ms-transform: translate3d(0, 0, 0);
+			}
+			
+			.owl-theme .owl-controls {
+				margin-top: 10px;
+				text-align: center;
+			}
+			/* Styling Next and Prev buttons */
+			
+			.owl-theme .owl-controls .owl-buttons div {
+				color: #FFF;
+				display: inline-block;
+				zoom: 1;
+				*display: inline;
+				/*IE7 life-saver */
+				margin: 5px;
+				padding: 3px 10px;
+				font-size: 12px;
+				-webkit-border-radius: 30px;
+				-moz-border-radius: 30px;
+				border-radius: 30px;
+				background: #869791;
+				filter: Alpha(Opacity=50);
+				/*IE7 fix*/
+				opacity: 0.5;
+			}
+			/* Clickable class fix problem with hover on touch devices */
+			/* Use it for non-touch hover action */
+			
+			.owl-theme .owl-controls.clickable .owl-buttons div:hover {
+				filter: Alpha(Opacity=100);
+				/*IE7 fix*/
+				opacity: 1;
+				text-decoration: none;
+			}
+			/* Styling Pagination*/
+			
+			.owl-theme .owl-controls .owl-page {
+				display: inline-block;
+				zoom: 1;
+				*display: inline;
+				/*IE7 life-saver */
+			}
+			
+			.owl-theme .owl-controls .owl-page span {
+				display: block;
+				width: 12px;
+				height: 12px;
+				margin: 5px 7px;
+				filter: Alpha(Opacity=50);
+				/*IE7 fix*/
+				opacity: 0.5;
+				-webkit-border-radius: 20px;
+				-moz-border-radius: 20px;
+				border-radius: 20px;
+				background: #0042a1;
+				overflow: hidden;
+			}
+			
+			.owl-theme .owl-controls .owl-page.active span,
+			.owl-theme .owl-controls.clickable .owl-page:hover span {
+				filter: Alpha(Opacity=100);
+				/*IE7 fix*/
+				opacity: 1;
+			}
+			/* If PaginationNumbers is true */
+			
+			.owl-theme .owl-controls .owl-page span.owl-numbers {
+				height: auto;
+				width: auto;
+				color: #FFF;
+				padding: 2px 10px;
+				font-size: 12px;
+				-webkit-border-radius: 30px;
+				-moz-border-radius: 30px;
+				border-radius: 30px;
+			}					
+			#specialColumn1 .owl-controls {
+				position: absolute;
+				bottom: 20px;
+				left: 0;
+				width: 100%;
+			}
+		</style>
+		<script type="text/javascript">
+			(function() {
+				$("#specialColumn1").owlCarousel({
+					autoPlay : 3000,
+					items: 1,
+					itemsDesktop: [979, 1],
+					itemsDesktopSmall: [979, 1],
+					itemsTablet: [768, 1],
+					rewindSpeed: 10,
+					pagination: true
+				});
+			})()
+		</script>
+	</div>
+</div><div class="main-wrap">
+	
+	<div class="notice">
+		<div id="marquee_div" style="overflow: hidden;"><table width="100%" cellspacing="0" cellpadding="0" style="border-collapse:collapse;display:inline;"><tbody><tr><td nowrap="true" style="white-space: nowrap;word-break:keep-all;">
+			<font style="font-size: 0.875em" color="#444">
+				<nobr>
+				<a href="https://zzjy.zhengzhou.gov.cn/tsxw/10136401.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">郑州市教育局党组书记、局长王丽娟走进郑州一中讲授专题党课</a>
+				<a href="https://zzjy.zhengzhou.gov.cn/tsxw/10133440.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">郑州市教育局机关组织收看庆祝中国共产党成立105周年大会</a>
+				<a href="https://zzjy.zhengzhou.gov.cn/tsxw/10133447.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">郑州市教育局领导王丽娟一行走访慰问郑州四中百岁老党员</a>
+				<a href="https://zzjy.zhengzhou.gov.cn/tsxw/10131214.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">郑州市教育局关工委成立四十周年纪念会举行</a>
+				<a href="https://zzjy.zhengzhou.gov.cn/tsxw/10127441.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">郑州市教育局领导王丽娟一行深入郑州市第四十七高级中学督导校园安全工作</a>
+				<a href="https://zzjy.zhengzhou.gov.cn/tsxw/10123981.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">2026年郑州市区民办初中电脑派位举行 中午12点可查录取结果</a>
+				</nobr>
+			</font>
+		</td><td nowrap="true" style="white-space: nowrap;word-break:keep-all;">
+			<font style="font-size: 0.875em" color="#444">
+				<nobr>
+				<a href="https://zzjy.zhengzhou.gov.cn/tsxw/10136401.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">郑州市教育局党组书记、局长王丽娟走进郑州一中讲授专题党课</a>
+				<a href="https://zzjy.zhengzhou.gov.cn/tsxw/10133440.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">郑州市教育局机关组织收看庆祝中国共产党成立105周年大会</a>
+				<a href="https://zzjy.zhengzhou.gov.cn/tsxw/10133447.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">郑州市教育局领导王丽娟一行走访慰问郑州四中百岁老党员</a>
+				<a href="https://zzjy.zhengzhou.gov.cn/tsxw/10131214.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">郑州市教育局关工委成立四十周年纪念会举行</a>
+				<a href="https://zzjy.zhengzhou.gov.cn/tsxw/10127441.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">郑州市教育局领导王丽娟一行深入郑州市第四十七高级中学督导校园安全工作</a>
+				<a href="https://zzjy.zhengzhou.gov.cn/tsxw/10123981.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">2026年郑州市区民办初中电脑派位举行 中午12点可查录取结果</a>
+				</nobr>
+			</font>
+		</td></tr></tbody></table></div>
+		<script type="text/javascript" language="javascript">
+			new Marquee('marquee_div', 2, 1, 0, 0, 30, 0, 0);
+		</script>
+	</div>
+	<div class="clearfix" role="region" aria-label="新闻区" aria-description="">		
+			<div class="focus-pic">
+					<div class="focus-img owl-carousel owl-theme owl-loaded owl-drag">
+												
+						
+						
+						
+						
+					<div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2200px, 0px, 0px); transition: 0.25s; width: 4840px;"><div class="owl-item cloned" style="width: 440px;"><a class="item" target="_self" href="https://zzjy.zhengzhou.gov.cn/tsxw/10133447.jhtml" title="郑州市教育局领导王丽娟一行走访慰问郑州四中百岁老党员" style="background-image: url(u/cms/jyj/202607/0117413434gk.jpg)" aria-roledescription="链接,在指定窗口中打开"></a></div><div class="owl-item cloned" style="width: 440px;"><a class="item" target="_self" href="https://zzjy.zhengzhou.gov.cn/tsxw/10131214.jhtml" title="郑州市教育局关工委成立四十周年纪念会举行" style="background-image: url(u/cms/jyj/202606/30181358t5vo.jpg)" aria-roledescription="链接,在指定窗口中打开"></a></div><div class="owl-item cloned" style="width: 440px;"><a class="item" target="_self" href="https://zzjy.zhengzhou.gov.cn/tsxw/10127441.jhtml" title="郑州市教育局领导王丽娟一行深入郑州市第四十七高级中学督导校园安全工作" style="background-image: url(u/cms/jyj/202606/29152845ag0a.jpg)" aria-roledescription="链接,在指定窗口中打开"></a></div><div class="owl-item" style="width: 440px;"><a class="item" target="_self" href="https://zzjy.zhengzhou.gov.cn/tsxw/10136401.jhtml" title="郑州市教育局党组书记、局长王丽娟走进郑州一中讲授专题党课" style="background-image: url(u/cms/jyj/202607/03082157mqy9.jpg)" aria-roledescription="链接,在指定窗口中打开"></a></div><div class="owl-item" style="width: 440px;"><a class="item" target="_self" href="https://zzjy.zhengzhou.gov.cn/tsxw/10133440.jhtml" title="郑州市教育局机关组织收看庆祝中国共产党成立105周年大会" style="background-image: url(u/cms/jyj/202607/011741187u9v.jpg)" aria-roledescription="链接,在指定窗口中打开"></a></div><div class="owl-item active" style="width: 440px;"><a class="item" target="_self" href="https://zzjy.zhengzhou.gov.cn/tsxw/10133447.jhtml" title="郑州市教育局领导王丽娟一行走访慰问郑州四中百岁老党员" style="background-image: url(u/cms/jyj/202607/0117413434gk.jpg)" aria-roledescription="链接,在指定窗口中打开"></a></div><div class="owl-item" style="width: 440px;"><a class="item" target="_self" href="https://zzjy.zhengzhou.gov.cn/tsxw/10131214.jhtml" title="郑州市教育局关工委成立四十周年纪念会举行" style="background-image: url(u/cms/jyj/202606/30181358t5vo.jpg)" aria-roledescription="链接,在指定窗口中打开"></a></div><div class="owl-item" style="width: 440px;"><a class="item" target="_self" href="https://zzjy.zhengzhou.gov.cn/tsxw/10127441.jhtml" title="郑州市教育局领导王丽娟一行深入郑州市第四十七高级中学督导校园安全工作" style="background-image: url(u/cms/jyj/202606/29152845ag0a.jpg)" aria-roledescription="链接,在指定窗口中打开"></a></div><div class="owl-item cloned" style="width: 440px;"><a class="item" target="_self" href="https://zzjy.zhengzhou.gov.cn/tsxw/10136401.jhtml" title="郑州市教育局党组书记、局长王丽娟走进郑州一中讲授专题党课" style="background-image: url(u/cms/jyj/202607/03082157mqy9.jpg)" aria-roledescription="链接,在指定窗口中打开"></a></div><div class="owl-item cloned" style="width: 440px;"><a class="item" target="_self" href="https://zzjy.zhengzhou.gov.cn/tsxw/10133440.jhtml" title="郑州市教育局机关组织收看庆祝中国共产党成立105周年大会" style="background-image: url(u/cms/jyj/202607/011741187u9v.jpg)" aria-roledescription="链接,在指定窗口中打开"></a></div><div class="owl-item cloned" style="width: 440px;"><a class="item" target="_self" href="https://zzjy.zhengzhou.gov.cn/tsxw/10133447.jhtml" title="郑州市教育局领导王丽娟一行走访慰问郑州四中百岁老党员" style="background-image: url(u/cms/jyj/202607/0117413434gk.jpg)" aria-roledescription="链接,在指定窗口中打开"></a></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" aria-roledescription="向左滚动" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" aria-roledescription="向右滚动" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots"><button role="button" aria-roledescription="切换按钮" class="owl-dot"><span></span></button><button role="button" aria-roledescription="切换按钮" class="owl-dot"><span></span></button><button role="button" aria-roledescription="切换按钮" class="owl-dot active"><span></span></button><button role="button" aria-roledescription="切换按钮" class="owl-dot"><span></span></button><button role="button" aria-roledescription="切换按钮" class="owl-dot"><span></span></button></div></div>
+					<style type="text/css">
+					.focus-img * {
+						outline: none;
+					}
+					.focus-img.owl-carousel .item {
+					    display: block;
+					    position: relative;
+					    padding-top: 60%;
+					    background-color: black;
+					    background-repeat: no-repeat;
+					    background-position: center center;
+					    background-size: cover;
+					}
+					
+					.focus-img.owl-carousel .item:after {
+					    content: attr(title);
+					    display: block;
+					    position: absolute;
+					    bottom: 0;
+					    width: 100%;
+					    color: white;
+					    box-sizing: border-box;
+					    line-height: 36px;
+					    white-space: nowrap;
+					    overflow: hidden;
+					    text-overflow: ellipsis;
+					    padding-right: 150px;
+					    padding-left: 16px;
+					    padding-top: 24px;
+					    background: rgba(0,0,0,0.5);
+					    background: -webkit-linear-gradient(top, rgba(0,0,0,0.5), transparent);
+					    background: -moz-linear-gradient(top, rgba(0,0,0,0.5), transparent);
+					    background: -o-linear-gradient(top, rgba(0,0,0,0.5), transparent);
+					    background: linear-gradient(to top, rgba(0,0,0,0.5), transparent);
+					}
+					
+					.focus-img.owl-carousel .owl-nav.disabled+.owl-dots {
+					    position: absolute;
+					    right: 10px;
+					    bottom: 4px;
+					}
+					
+					.focus-img.owl-carousel.owl-theme .owl-dots .owl-dot.active span {
+						width: 18px;
+						background: #426fed;
+					}
+					@media screen and (max-width:1000px){
+						.focus-pic {
+							width:100%;
+							float:none;
+							margin-bottom:20px;
+							}
+						}
+					@media screen and (max-width:720px){
+						.owl-theme .owl-dots .owl-dot span{
+							margin: 3px 2px;
+							width: 3px;
+							height: 3px;
+						}
+						.focus-img.owl-carousel .owl-nav.disabled+.owl-dots{
+							bottom: 8px;
+						}
+						.focus-img.owl-carousel .item:after{
+							padding-right:60px;
+						}
+					}
+					</style>
+					<script type="text/javascript">
+					$(".focus-img").owlCarousel({
+						items: 1,
+						loop: true,
+						autoplay: true,
+						autoplayTimeout: 5000,
+						autoplayHoverPause: true
+					});
+					</script>
+				<script type="text/javascript">
+					function resizeOwlCarousel_focus(ele){
+						var owl = ele.owlCarousel().data("owl.carousel");
+						owl.onResize();
+					}
+					function changeConciseOwlCarousel_focus(concise,eleSelector){
+						var handler = function(state) {
+							resizeOwlCarousel_focus($(eleSelector));
+							if(state){
+								setTimeout('resizeOwlCarousel_focus($("'+eleSelector+'"))',600);
+							}
+						}
+						concise.handleState(function(state){
+							handler(state);
+						});
+						if(concise.state) handler(concise.state);
+					}
+					(function(concise) {
+						changeConciseOwlCarousel_focus(concise,".focus-img");
+					})(ARIAW.instance().concise);
+					$(window).load(function(){
+						resizeOwlCarousel_focus($(".focus-img"));
+					});
+				</script>
+			</div>		
+		<div class="col-a-wide">
+			<div class="box-01 box-tab has-bd" id="tab1">
+				<div class="title clearfix">
+					<div class="node-title clearfix">
+						<a href="https://zzjy.zhengzhou.gov.cn/gzdt/index.jhtml" class="node-title-a focus" aria-flowto="tab1-content-gzdt" target="_self" aria-roledescription="链接,在指定窗口中打开">工作动态</a>
+						<a href="https://zzjy.zhengzhou.gov.cn/szxw/index.jhtml" class="node-title-a" aria-flowto="tab1-content-szxw" target="_self" aria-roledescription="链接,在指定窗口中打开">时政要闻</a>
+						<a href="https://zzjy.zhengzhou.gov.cn/mtjj/index.jhtml" class="node-title-a" aria-flowto="tab1-content-mtjj" target="_self" aria-roledescription="链接,在指定窗口中打开">媒体聚焦</a>
+						<a href="http://www.gov.cn/pushinfo/v150203/index.htm" target="_self" style="color: #2585c9" aria-roledescription="链接,在指定窗口中打开">国务院信息</a>
+					</div>
+				</div>
+				<div class="box-content">
+					<ul class="node-list">
+						<li class="focus" id="tab1-content-gzdt">
+							<div class="small-title clearfix">
+								<span class="title-name">工作动态</span>
+								<a href="https://zzjy.zhengzhou.gov.cn/gzdt/index.jhtml" class="small-more" target="_self" aria-roledescription="链接,在指定窗口中打开">更多</a>
+							</div>
+							<div class="news-list index-has-icon" id="tab1-content-news0">
+									<a href="https://zzjy.zhengzhou.gov.cn/gzdt/10136394.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">
+										<span>郑州市教育局党组书记、局长王丽娟走进郑州一中讲授专题党课</span>
+										<em>2026-07-03</em>
+									</a>
+									<a href="https://zzjy.zhengzhou.gov.cn/gzdt/10133410.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">
+										<span>郑州市教育局机关组织收看庆祝中国共产党成立105周年大会</span>
+										<em>2026-07-01</em>
+									</a>
+									<a href="https://zzjy.zhengzhou.gov.cn/gzdt/10133406.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">
+										<span>郑州市教育局领导王丽娟一行走访慰问郑州四中百岁老党员</span>
+										<em>2026-07-01</em>
+									</a>
+									<a href="https://zzjy.zhengzhou.gov.cn/gzdt/10131207.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">
+										<span>郑州市教育局关工委成立四十周年纪念会举行</span>
+										<em>2026-06-30</em>
+									</a>
+									<a href="https://zzjy.zhengzhou.gov.cn/gzdt/10127365.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">
+										<span>郑州市教育局领导王丽娟一行深入郑州市第四十七高级中学督导校园安全工作</span>
+										<em>2026-06-29</em>
+									</a>
+									<a href="https://zzjy.zhengzhou.gov.cn/gzdt/10123970.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">
+										<span>2026年郑州市区民办初中电脑派位举行 中午12点可查录取结果</span>
+										<em>2026-06-26</em>
+									</a>
+									<a href="https://zzjy.zhengzhou.gov.cn/gzdt/10117173.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">
+										<span>抓实管理 优化服务 确保中招考试安全平稳顺利</span>
+										<em>2026-06-23</em>
+									</a>
+									<a href="https://zzjy.zhengzhou.gov.cn/gzdt/10114090.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">
+										<span>郑州市校外培训治理工作推进会召开</span>
+										<em>2026-06-18</em>
+									</a>
+							</div>
+						</li>
+						<li id="tab1-content-szxw">
+							<div class="small-title clearfix">
+								<span class="title-name">时政要闻</span>
+								<a href="https://zzjy.zhengzhou.gov.cn/szxw/index.jhtml" class="small-more" target="_self" aria-roledescription="链接,在指定窗口中打开">更多</a>
+							</div>
+							<div class="news-list index-has-icon" id="tab1-content-news0">
+									<a href="https://www.zhengzhou.gov.cn/news0/10131586.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">
+										<span>《求是》杂志发表习近平总书记重要文章《做焦裕禄式的县委书记》</span>
+										<em>2026-07-01</em>
+									</a>
+									<a href="https://www.zhengzhou.gov.cn/news0/10126104.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">
+										<span>永远把伟大建党精神继承下去、发扬光大——习近平总书记引领弘扬光荣传统、赓续红色血脉</span>
+										<em>2026-07-01</em>
+									</a>
+									<a href="https://www.zhengzhou.gov.cn/news0/10125853.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">
+										<span>习近平会见柬埔寨人民党主席、参议院主席洪森</span>
+										<em>2026-06-29</em>
+									</a>
+									<a href="https://www.zhengzhou.gov.cn/news0/10117186.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">
+										<span>总书记的人民情怀 | “必须把我们党建设好、建设强”</span>
+										<em>2026-06-24</em>
+									</a>
+									<a href="https://www.zhengzhou.gov.cn/news0/10111314.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">
+										<span>习近平对常态化做好东西部协作工作作出重要指示</span>
+										<em>2026-06-22</em>
+									</a>
+									<a href="https://www.zhengzhou.gov.cn/news0/10100090.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">
+										<span>《习近平外交文选》第一卷、第二卷出版发行</span>
+										<em>2026-06-15</em>
+									</a>
+									<a href="https://www.zhengzhou.gov.cn/news0/10092022.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">
+										<span>习近平同金正恩举行会谈</span>
+										<em>2026-06-10</em>
+									</a>
+									<a href="https://www.zhengzhou.gov.cn/news0/10089527.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">
+										<span>习近平在朝鲜媒体发表署名文章</span>
+										<em>2026-06-10</em>
+									</a>
+							</div>
+						</li>
+						<li id="tab1-content-mtjj">
+							<div class="small-title clearfix">
+								<span class="title-name">媒体聚焦</span>
+								<a href="https://zzjy.zhengzhou.gov.cn/mtjj/index.jhtml" class="small-more" target="_self" aria-roledescription="链接,在指定窗口中打开">更多</a>
+							</div>
+							<div class="news-list index-has-icon" id="tab1-content-news0">
+									<a href="https://www.zhengzhou.gov.cn/news1/10125993.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">
+										<span>《郑州日报》：900余所高校为考生答疑 河南高招现场咨询活动“干货满满”</span>
+										<em>2026-06-29</em>
+									</a>
+									<a href="https://paper.jyb.cn/zgjyb/html/2026-06/20/content_144741_19636293.htm" target="_self" aria-roledescription="链接,在指定窗口中打开">
+										<span>《中国教育报》：每个“普通小孩”都是主角——记河南省郑州市金水区金沙小学教师马超群</span>
+										<em>2026-06-26</em>
+									</a>
+									<a href="https://www.zhengzhou.gov.cn/news1/10119200.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">
+										<span>《郑州日报》：中招考试顺利落幕 集中评卷周五开启</span>
+										<em>2026-06-24</em>
+									</a>
+									<a href="https://jyt.henan.gov.cn/2026/06-18/3367277.html" target="_self" aria-roledescription="链接,在指定窗口中打开">
+										<span>《河南省教育厅》：郑州市：践行健康第一理念 构建全面育人新格局</span>
+										<em>2026-06-22</em>
+									</a>
+									<a href="https://www.zhengzhou.gov.cn/news1/10105634.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">
+										<span>《郑州日报》：“小升初”民办初中15至16日集中报名 26日组织电脑派位并公布录取结果</span>
+										<em>2026-06-16</em>
+									</a>
+									<a href="https://www.zhengzhou.gov.cn/news1/10102850.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">
+										<span>《郑州日报》：全国中学生网球联赛在郑启幕</span>
+										<em>2026-06-15</em>
+									</a>
+									<a href="https://www.zhengzhou.gov.cn/news1/10094611.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">
+										<span>《郑州日报》：河南高考顺利落幕 少年乘风去 山海皆坦途</span>
+										<em>2026-06-10</em>
+									</a>
+									<a href="https://www.zhengzhou.gov.cn/news1/10094581.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">
+										<span>《郑州日报》：高考结束 准考证千万别晒  高考反诈+信息安全提示来了</span>
+										<em>2026-06-10</em>
+									</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<script type="text/javascript">
+					initTabs($("#tab1 .node-title>.node-title-a"), $("#tab1 .node-list>li"), "focus", "mouseenter", 0, null, null);
+					(function(read) {
+						read && read.handleFlowing(function(element, prev) {
+							$(element).trigger("mouseenter");
+						});
+					})(ARIAW.instance().read);
+				</script>
+			</div>
+		</div>
+	</div>
+	<!--工作动态-->
+	<div class="mt-30 clearfix">
+		<div class="d-table" role="region" aria-label="通知公告区" aria-description="">
+			<div class="col-a-narrow">
+				<div class="box-01 has-bd has-bg">
+					<div class="title">
+						<span class="focus">电子政务</span>
+					</div>
+					<div class="small-title clearfix">
+						<span class="title-name">电子政务</span>
+					</div>
+					<ul class="btn-wrap clearfix btn-2">
+						<li>
+							<a href="http://zzjcjy.zzedu.net.cn/pc/login?redirect=%2Fxyfx%2F" target="_self" aria-roledescription="图片链接,在指定窗口中打开"><img src="r/cms/jyj/cn/images/aff11.png"><span>学业评价分析</span></a>
+						</li>
+						<li>
+							<a href="https://zz.zzedu.net.cn/" target="_self" aria-roledescription="图片链接,在新窗口中打开"><img src="r/cms/jyj/cn/images/aff12.png"><span>郑州智慧教育云服务平台</span></a>
+						</li>
+					</ul>
+					
+					<style type="text/css">
+					.clearfix:after {
+						content: "";
+						display: block;
+						clear: both;
+						height: 0;
+					}
+					.ad-fwdt{
+						margin-top:15px;
+					}
+					.ad-fwdt>a{
+						display:block;
+					}
+					.ad-fwdt>a img{
+						width:100%;
+						display:block;
+					}
+					@media screen and (max-width: 720px){
+						.ad-fwdt>a img{
+
+						}
+					}
+					@media screen and (max-width: 480px){
+						.ad-fwdt{
+							margin:10px 0!important;
+						}
+					}
+					</style>
+				</div>
+			</div>
+			<div class="col-a-wide">
+				<div class="box-01 has-bd has-bg">
+					<div class="title">
+						<a href="https://zzjy.zhengzhou.gov.cn/tzgg/index.jhtml" class="focus" target="_self" aria-roledescription="链接,在指定窗口中打开">通知公告</a>
+					</div>
+					<div class="box-content">
+						<div class="small-title clearfix">
+							<span class="title-name">通知公告</span>
+							<a href="https://zzjy.zhengzhou.gov.cn/tzgg/index.jhtml" class="small-more" target="_self" aria-roledescription="链接,在指定窗口中打开">更多</a>
+						</div>
+						<div class="news-list index-has-icon">
+							
+								<a href="https://zzjy.zhengzhou.gov.cn/tzgg/10136240.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">
+									<span>2026年郑州市事业单位公开招聘（省级联考）郑州市教育局直属学校面试资格确认的公告</span>
+									<em>2026-07-02</em>
+								</a>
+							
+							
+								<a href="https://zzjy.zhengzhou.gov.cn/tzgg/9990354.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">
+									<span>郑州市招生考试中心2026年公益性岗位公开招聘公告</span>
+									<em>2026-04-09</em>
+								</a>
+							
+							
+								<a href="https://zzjy.zhengzhou.gov.cn/tzgg/9974062.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">
+									<span>郑州市2026年4月份面向社会人员普通话水平测试公告</span>
+									<em>2026-03-30</em>
+								</a>
+							
+							
+								<a href="https://zzjy.zhengzhou.gov.cn/tzgg/9670577.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">
+									<span>2025年郑州市教育局部分直属学校（单位）公开招聘高层次人才公告</span>
+									<em>2025-10-17</em>
+								</a>
+							
+							
+								<a href="https://zzjy.zhengzhou.gov.cn/tzgg/9658385.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">
+									<span>郑州市招生考试中心招聘公益性岗位工作人员公告</span>
+									<em>2025-10-11</em>
+								</a>
+							
+							
+								<a href="https://zzjy.zhengzhou.gov.cn/tzgg/9583105.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">
+									<span>河南省教育厅等八部门转发教育部等九部门关于开展第28届全国推广普通话宣传周活动的通知</span>
+									<em>2025-09-01</em>
+								</a>
+							
+							
+								<a href="https://zzjy.zhengzhou.gov.cn/tzgg/9556414.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">
+									<span>2025年郑州市事业单位公开招聘联考郑州外国语学校面试资格确认递补通知</span>
+									<em>2025-08-20</em>
+								</a>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--信息公开-->
+<div class="main-wrap">
+				<div class="ad mt-20">
+					<style type="text/css">
+						.ad {
+							display: block;
+							padding-top:10%;
+							position: relative;
+						}
+						.ad img{
+							display: block;
+							width:100%;
+						}
+						.ad a{
+							display:block;
+						}
+						#bannerPic div{
+			                        	position:absolute;
+							z-index:7;
+							opacity:0.0;
+			                        	width:100%;
+							top:0;
+						}
+						#bannerPic div.active {
+							z-index:7;
+							opacity:1.0;
+						}
+						#bannerPic div.last-active {
+							z-index:7;
+						}
+					</style>
+					<div id="bannerPic" class="banner-pic">
+												<div class="" style="opacity: 1;">
+							<a href="https://www.12371.cn/special/xxzd/" target="_self" aria-roledescription="图片链接,在指定窗口中打开">
+								<img src="r/cms/jyj/cn/images/index_adv_06.jpg" alt="学习贯彻习近平新时代中国特色社会主义思想">
+							</a>
+						</div>
+					</div>
+					<script type="text/javascript">
+						function slideSwitch() {
+							if($('#bannerPic div').length>1){
+								var $active = $('#bannerPic div.active');
+								if ($active.length == 0) $active = $('#bannerPic div:last');
+								var $next =  $active.next().length ? $active.next() : $('#bannerPic div:first');
+						
+								$active.addClass('last-active');
+								$('#bannerPic div').css({display: "none"});
+								$next.css({opacity: 0.0,display: "block"}).addClass('active') .animate({opacity: 1.0}, 1000, function() {
+									$active.removeClass('active last-active');
+						        	});
+							}
+						}
+						
+						
+						var loopSlideCall;
+						function myInterval(fn,time){
+							let executor=(fn,time)=>{
+							loopSlideCall=setTimeout(()=>{fn();executor(fn,time)},time);
+						}
+							executor(fn,time);
+						}
+						function pauseMyInterval(){
+							window.clearTimeout(loopSlideCall);
+						}
+
+						$(function() {
+							myInterval(slideSwitch,3000);
+							$('#bannerPic').find('div').each(function(){
+								$(this).bind('mouseover focus', function(){
+									pauseMyInterval();
+								});
+								$(this).bind('mouseout blur', function(){
+									pauseMyInterval();
+									myInterval(slideSwitch,5000);
+								});
+							});
+						});
+					</script>
+				</div></div>
+<div class="max-wrap mt-20 wrap-bg01 pt-30">
+	<div class="main-wrap">
+		<div class="box-01" role="region" aria-label="信息公开区" aria-description="">
+			<div class="big-title xxgkqq">
+				<a href="https://zzjy.zhengzhou.gov.cn/xxgk/index.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">
+					<span>信息公开</span>
+				</a>
+			</div>
+			<div class="small-title clearfix">
+				<span class="title-name">信息公开</span>
+			</div>
+			<ul class="icon-list col-7 clearfix">
+				<li>
+					<a href="http://public.zhengzhou.gov.cn/?a=info&amp;d=6" target="_self" aria-roledescription="图片链接,在指定窗口中打开">
+						<img src="r/cms/jyj/cn/images/public9.png">
+						<img src="r/cms/jyj/cn/images/public_9.png" class="small-img">
+						<span>政府信息公开</span>
+					</a>
+				</li>
+				<li>
+					<a href="jgld/index.jhtml" target="_self" aria-roledescription="图片链接,在指定窗口中打开">
+						<img src="r/cms/jyj/cn/images/public3.png">
+						<img src="r/cms/jyj/cn/images/public_3.png" class="small-img">
+						<span>机构信息</span>
+					</a>
+				</li>
+				<li>
+					<a href="https://zzjy.zhengzhou.gov.cn/xxgkml/index.jhtml" target="_self" aria-roledescription="图片链接,在指定窗口中打开">
+						<img src="r/cms/jyj/cn/images/public4.png">
+						<img src="r/cms/jyj/cn/images/public_4.png" class="small-img">
+						<span>最新信息公开</span>
+					</a>
+				</li>
+				<li>
+					<a href="https://zz.hnzwfw.gov.cn/zzzw/zwqd/qzqdIndex.do?areaCode=410100000000" target="_self" aria-roledescription="图片链接,在指定窗口中打开">
+						<img src="r/cms/jyj/cn/images/public6.png">
+						<img src="r/cms/jyj/cn/images/public_6.png" class="small-img">
+						<span>权责清单</span>
+					</a>
+				</li>
+				<li>
+					<a href="zszc/index.jhtml" target="_self" aria-roledescription="图片链接,在指定窗口中打开">
+						<img src="r/cms/jyj/cn/images/public5.png">
+						<img src="r/cms/jyj/cn/images/public_5.png" class="small-img">
+						<span>重点领域公开</span>
+					</a>
+				</li>
+				<li>
+					<a href="https://zzjy.zhengzhou.gov.cn/wsgs/index.jhtml" target="_self" aria-roledescription="图片链接,在指定窗口中打开">
+						<img src="r/cms/jyj/cn/images/public1.png">
+						<img src="r/cms/jyj/cn/images/public_1.png" class="small-img">
+						<span>网上公示</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="max-wrap pt-30">
+	<div class="main-wrap">
+		<div class="box-01" role="region" aria-label="教育服务区" aria-description="">
+			<div class="big-title color-blue">
+				<a href="https://zzjy.zhengzhou.gov.cn/jyfw/index.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">
+					<span>教育服务</span>
+				</a>
+			</div>
+			<div class="small-title clearfix">
+				<span class="title-name">教育服务</span>
+			</div>
+			<ul class="icon-list col-4 has-des clearfix">
+				<li>
+					<a href="zz/index.jhtml" target="_self" aria-roledescription="图片链接,在指定窗口中打开">
+						<img src="u/cms/jyj/202005/04025552p595.png">
+						<span>考试服务</span>
+						<em>中考、普通高招与研究生考试、社会考试...</em>
+					</a>
+				</li>
+				<li>
+					<a href="https://zz.hnzwfw.gov.cn/zzzw/item/deptInfo.do?deptUnid=001003008002010&amp;deptName=%E5%B8%82%E6%95%99%E8%82%B2%E5%B1%80&amp;areaCode=410100000000&amp;region=410100000000&amp;creditCode=11410100005252266D" target="_self" aria-roledescription="图片链接,在指定窗口中打开">
+						<img src="u/cms/jyj/202005/0402562153mh.png">
+						<span>政务服务</span>
+						<em></em>
+					</a>
+				</li>
+				<li>
+					<a href="jszl/index.jhtml" target="_self" aria-roledescription="图片链接,在指定窗口中打开">
+						<img src="u/cms/jyj/202005/04025604ab73.png">
+						<span>教师服务</span>
+						<em>教师资格认定、教师招录、退休办理...</em>
+					</a>
+				</li>
+				<li>
+					<a href="mtzgg/index.jhtml" target="_self" aria-roledescription="图片链接,在指定窗口中打开">
+						<img src="u/cms/jyj/202005/04025620oiwt.png">
+						<span>民办教育</span>
+						<em>通知公告、民校查询</em>
+					</a>
+				</li>
+				<li>
+					<a href="xwtz/index.jhtml" target="_self" aria-roledescription="图片链接,在指定窗口中打开">
+						<img src="u/cms/jyj/202005/04025618gmxn.png">
+						<span>校外教育</span>
+						<em>通知公告、命名基地</em>
+					</a>
+				</li>
+				<li>
+					<a href="zcfg/index.jhtml" target="_self" aria-roledescription="图片链接,在指定窗口中打开">
+						<img src="u/cms/jyj/202005/04025621jk70.png">
+						<span>教育资助</span>
+						<em>政策法规、通知公告、资料下载</em>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="max-wrap pt-30">
+	<div class="main-wrap">
+		<div class="box-01" role="region" aria-label="公众参与区" aria-description="">
+			<div class="big-title color-org">
+								<a href="maillist/index.jhtml" target="_self" aria-roledescription="链接,在指定窗口中打开">
+					<span>公众参与</span>
+				</a>
+			</div>
+			<div class="content clearfix">
+				<div class="small-title clearfix">
+					<span class="title-name">公众参与</span>
+				</div>
+				<div class="d-table">
+					<div class="col-b-narrow">
+						<ul class="special_column owl-carousel owl-theme clearfix owl-loaded owl-drag">
+							
+							
+							
+							
+							
+						<div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2065px, 0px, 0px); transition: 0.25s; width: 3245px;"><div class="owl-item cloned" style="width: 295px;"><li class="item">
+								<a href="https://weibo.com/tv/show/1034:5293433833848963?from=old_pc_videoshow" target="_self" aria-roledescription="图片链接,在指定窗口中打开">
+									<img src="u/cms/www/202604/30170428wzvq.jpg" alt="阅读与写作——从春天出发名家访谈">
+								</a>
+								<span></span>
+								<p>阅读与写作——从春天出发名家访谈</p>
+							</li></div><div class="owl-item cloned" style="width: 295px;"><li class="item">
+								<a href="https://weibo.com/l/wblive/p/show/1022:2321325262892936331317" target="_self" aria-roledescription="图片链接,在指定窗口中打开">
+									<img src="u/cms/www/202602/0616530815ij.jpg" alt="赋能寒假 共育成长">
+								</a>
+								<span></span>
+								<p>赋能寒假 共育成长</p>
+							</li></div><div class="owl-item cloned" style="width: 295px;"><li class="item">
+								<a href="https://weibo.com/l/wblive/p/show/1022:2321325208887908761852" target="_self" aria-roledescription="图片链接,在指定窗口中打开">
+									<img src="u/cms/www/202509/09153337lrjm.jpg" alt="以教育家精神铸魂强师  谱写教育强国建设华章 2025教师节 在线访谈">
+								</a>
+								<span></span>
+								<p>以教育家精神铸魂强师  谱写教育强国建设华章 2025教师节 在线访谈</p>
+							</li></div><div class="owl-item" style="width: 295px;"><li class="item">
+								<a href="https://weibo.com/l/wblive/p/show/1022:2321325303117977092119" target="_self" aria-roledescription="图片链接,在指定窗口中打开">
+									<img src="u/cms/www/202605/27143330w9n8.jpg" alt="全面落实“健康第一” 筑牢心理健康防线">
+								</a>
+								<span></span>
+								<p>全面落实“健康第一” 筑牢心理健康防线</p>
+							</li></div><div class="owl-item" style="width: 295px;"><li class="item">
+								<a href="https://weibo.com/tv/show/1042211:5298787728687126?from=old_pc_videoshow&amp;luicode=20000061&amp;lfid=5298769723917799&amp;launchid=10000360-page_H5" target="_self" aria-roledescription="图片链接,在指定窗口中打开">
+									<img src="u/cms/www/202605/151609341q0k.jpg" alt="落实“健康第一” 全方位护航学生身心健康">
+								</a>
+								<span></span>
+								<p>落实“健康第一” 全方位护航学生身心健康</p>
+							</li></div><div class="owl-item" style="width: 295px;"><li class="item">
+								<a href="https://weibo.com/tv/show/1034:5293433833848963?from=old_pc_videoshow" target="_self" aria-roledescription="图片链接,在指定窗口中打开">
+									<img src="u/cms/www/202604/30170428wzvq.jpg" alt="阅读与写作——从春天出发名家访谈">
+								</a>
+								<span></span>
+								<p>阅读与写作——从春天出发名家访谈</p>
+							</li></div><div class="owl-item" style="width: 295px;"><li class="item">
+								<a href="https://weibo.com/l/wblive/p/show/1022:2321325262892936331317" target="_self" aria-roledescription="图片链接,在指定窗口中打开">
+									<img src="u/cms/www/202602/0616530815ij.jpg" alt="赋能寒假 共育成长">
+								</a>
+								<span></span>
+								<p>赋能寒假 共育成长</p>
+							</li></div><div class="owl-item active" style="width: 295px;"><li class="item">
+								<a href="https://weibo.com/l/wblive/p/show/1022:2321325208887908761852" target="_self" aria-roledescription="图片链接,在指定窗口中打开">
+									<img src="u/cms/www/202509/09153337lrjm.jpg" alt="以教育家精神铸魂强师  谱写教育强国建设华章 2025教师节 在线访谈">
+								</a>
+								<span></span>
+								<p>以教育家精神铸魂强师  谱写教育强国建设华章 2025教师节 在线访谈</p>
+							</li></div><div class="owl-item cloned active" style="width: 295px;"><li class="item">
+								<a href="https://weibo.com/l/wblive/p/show/1022:2321325303117977092119" target="_self" aria-roledescription="图片链接,在指定窗口中打开">
+									<img src="u/cms/www/202605/27143330w9n8.jpg" alt="全面落实“健康第一” 筑牢心理健康防线">
+								</a>
+								<span></span>
+								<p>全面落实“健康第一” 筑牢心理健康防线</p>
+							</li></div><div class="owl-item cloned active" style="width: 295px;"><li class="item">
+								<a href="https://weibo.com/tv/show/1042211:5298787728687126?from=old_pc_videoshow&amp;luicode=20000061&amp;lfid=5298769723917799&amp;launchid=10000360-page_H5" target="_self" aria-roledescription="图片链接,在指定窗口中打开">
+									<img src="u/cms/www/202605/151609341q0k.jpg" alt="落实“健康第一” 全方位护航学生身心健康">
+								</a>
+								<span></span>
+								<p>落实“健康第一” 全方位护航学生身心健康</p>
+							</li></div><div class="owl-item cloned" style="width: 295px;"><li class="item">
+								<a href="https://weibo.com/tv/show/1034:5293433833848963?from=old_pc_videoshow" target="_self" aria-roledescription="图片链接,在指定窗口中打开">
+									<img src="u/cms/www/202604/30170428wzvq.jpg" alt="阅读与写作——从春天出发名家访谈">
+								</a>
+								<span></span>
+								<p>阅读与写作——从春天出发名家访谈</p>
+							</li></div></div></div><div class="owl-nav"><button type="button" role="presentation" aria-roledescription="向左滚动" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" aria-roledescription="向右滚动" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"><button role="button" aria-roledescription="切换按钮" class="owl-dot active"><span></span></button><button role="button" aria-roledescription="切换按钮" class="owl-dot"><span></span></button><button role="button" aria-roledescription="切换按钮" class="owl-dot"><span></span></button></div></ul>
+					</div>
+					<div class="col-b-wide">
+						<div class="big-wrap">
+							<a href="maillist.jhtml" class="orange" target="_self" aria-roledescription="图片链接,在指定窗口中打开">
+								<i>
+									<img src="r/cms/jyj/cn/images/icon_mail.png">
+								</i>
+                                                                <div>
+									<span>局长信箱</span>
+                                                                	<em>juzhangxinxiang</em>
+                                                                </div>
+
+							</a>
+	    					<a href="https://zzjy.zhengzhou.gov.cn/survey.jhtml" class="green" target="_self" aria-roledescription="图片链接,在指定窗口中打开">
+								<i>
+									<img src="r/cms/jyj/cn/images/icon_collection.png">
+								</i>
+                                                                <div>
+                                                                	<span>调查征集</span>
+                                                                	<em>diaochazhengji</em>
+                                                                </div>
+	    						
+	    					</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+				<style type="text/css">
+				.special_column * {
+					outline: none;
+				}
+				.special_column.owl-carousel .item {
+					margin: 2px;
+					display: block;
+					position: relative;
+					padding-top: 0%;
+					background-color: #ffffff;
+					background-repeat: no-repeat;
+					background-position: center center;
+					background-size: contain;
+				}
+							.special_column .item p {
+								display:none!important;
+								position: absolute;
+								bottom: 4px;
+								left: 0px;
+								margin: 0px;
+								padding: 0px;
+								width: 70%;
+								height: 40px;
+								line-height: 40px;
+								text-indent: 1em;
+								text-align: left;
+								color: #1e8ecf;
+								font-family: "Microsoft Yahei";
+								white-space: nowrap;
+								overflow: hidden;
+								text-overflow: ellipsis;
+							}
+							.special_column .item span {
+								display:none!important;
+								position: absolute;
+								bottom:3px;
+								left: 0px;
+								margin: 0px;
+								padding: 0px;
+								width: 100%;
+								height: 40px;
+								background: #fff;
+								filter: Alpha(Opacity=70); 
+								-moz-opacity:0.7; 
+								opacity:0.7;
+							}				
+				.special_column.owl-carousel.owl-theme .owl-nav{
+					display: none;
+					position: absolute;
+					margin: 0;
+					height: 22px;
+					padding-top: 6px;
+					width: 100%;
+					z-index: 9;
+				}
+				
+				.special_column.owl-carousel.owl-theme .owl-nav .owl-prev,
+				.special_column.owl-carousel.owl-theme .owl-nav .owl-next{
+					position: absolute;
+					top: 0;
+					display: inline-block;
+					width: 24px;
+					height: 22px;
+					height: 100%;
+					margin: -70px 0 0;
+					opacity: 0.5;
+				}
+				.special_column.owl-carousel.owl-theme .owl-nav .owl-prev{
+					left: 0;
+					background: url(r/cms/jyj/cn/images/owl-prev.png) center center no-repeat;
+				}
+				.special_column.owl-carousel.owl-theme .owl-nav .owl-next{
+					right: 0;
+					background: url(r/cms/jyj/cn/images/owl-next.png) center center no-repeat;
+				}
+				
+				.special_column.owl-carousel.owl-theme .owl-nav .owl-prev:hover,
+				.special_column.owl-carousel.owl-theme .owl-nav .owl-next:hover{
+				    filter: Alpha(Opacity=100);
+				    opacity: 1;
+				    text-decoration: none;
+				}
+				
+				.special_column.owl-carousel.owl-theme .owl-nav .owl-prev >span,
+				.special_column.owl-carousel.owl-theme .owl-nav .owl-next >span{
+					display: none;
+				}
+				
+				.special_column.owl-carousel .owl-dots {
+					display: none;
+				}
+				
+				@media screen and (max-width: 1000px){
+					.special_column.owl-carousel.owl-theme .owl-nav{
+						display: none;
+					}
+				}
+				</style>
+				<script type="text/javascript">
+				$(".special_column").owlCarousel({
+					loop: true,
+					autoplay: true,
+					autoplayTimeout: 3000,
+					autoplayHoverPause: true,
+					responsive:{
+						0: {
+							items:2,
+							nav:false
+						},
+						1000: {
+							items:3,
+							nav:true,
+							dots: false
+						}
+					}
+				});
+				</script>
+				<script type="text/javascript">
+					function resizeOwlCarousel_special_column_gzcy(ele){
+						var owl = ele.owlCarousel().data("owl.carousel");
+						owl.onResize();
+					}
+					function changeConciseOwlCarousel_special_column_gzcy(concise,eleSelector){
+						var handler = function(state) {
+							resizeOwlCarousel_special_column_gzcy($(eleSelector));
+							if(state){
+								setTimeout('resizeOwlCarousel_special_column_gzcy($("'+eleSelector+'"))',600);
+							}
+						}
+						concise.handleState(function(state){
+							handler(state);
+						});
+						if(concise.state) handler(concise.state);
+					}
+					(function(concise) {
+						changeConciseOwlCarousel_special_column_gzcy(concise,".special_column");
+					})(ARIAW.instance().concise);
+					$(window).load(function(){
+						resizeOwlCarousel_special_column_gzcy($(".special_column"));
+					});
+				</script>
+		<div class="max-wrap copyright">
+			<div class="main-wrap" role="region" aria-label="底部功能区" aria-roledescription="">
+								<table cellpadding="0" cellspacing="" border="0" width="100%">
+					<tbody><tr>
+						<td align="left">
+							<span tabindex="0"><img src="r/cms/jyj/cn/images/logo1.png" style="width:200px" alt="郑州市教育局网站logo"></span>
+						</td>
+						<td>
+						<a href="https://zzjy.zhengzhou.gov.cn/map.jhtml" class="copyright-btn" target="_self" aria-roledescription="链接,在指定窗口中打开">网站地图</a>
+						<div>
+							<span tabindex="0" class="m-visible">主办单位：郑州市教育局</span>
+							<span tabindex="0">地址：郑州市中原西路40号</span>
+							<span tabindex="0">邮政编码：450007</span>
+							<span tabindex="0">联系电话：0371-66961598</span>
+						</div>
+						<div>
+							<span tabindex="0" class="m-visible">网站标识码：4101000019</span>
+							<a href="https://beian.miit.gov.cn/" class="m-visible" target="_self" aria-roledescription="链接,在指定窗口中打开">豫ICP备2024040781号-1</a>
+							<a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=41010202002976" class="m-visible" target="_self" aria-label="豫 公 网 安 备 4 1 0 1 0 2 0 2 0 0 2 9 7 6 号" aria-roledescription="图片链接,在指定窗口中打开"> <img src="r/cms/global/common/site_info/site_foot_beian.png" style="vertical-align:middle;"> 豫公网安备 41010202002976号 </a>
+						</div>
+						<div tabindex="0"><span>严禁上传或处理涉密文件</span></div>
+						</td>
+						<td>
+							<span><a href="https://bszs.conac.cn/sitename?method=show&amp;id=1112C4BEF977442BE053012819ACD162" target="_self" aria-roledescription="图片链接,在指定窗口中打开"><img src="r/cms/global/common/site_info/site_foot_conac_red.png" alt="党政机关网站标识"></a></span>
+							<span id="_span_jiucuo"><a href="https://zfwzgl.www.gov.cn/exposure/jiucuo.html?site_code=4101000019" target="_self" aria-roledescription="图片链接,在指定窗口中打开"><img src="r/cms/global/common/site_info/site_foot_jiucuo.png" alt="政府网站找错"></a></span>
+						</td>
+					</tr>
+				</tbody></table>
+			</div>
+		</div>
+	</div>
+
+<script type="text/javascript">
+	(function() {
+		function IsPC() {
+			var userAgentInfo = navigator.userAgent;
+			var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod");
+			var flag = true;
+			for(var v = 0; v < Agents.length; v++) {
+				if(userAgentInfo.indexOf(Agents[v]) > 0) {
+					flag = false;
+					break;
+				}
+			}
+			return flag;
+		}
+		if($(window).width() < 1000 && !IsPC()) {
+			$("a").attr("target", "_self");
+		}
+	})();
+</script>
+	<div class="suspen">
+		<ul>
+			<li style="border-left:solid 1px #ddd;border-right:solid 1px #ddd;border-top:solid 1px #ddd;"><a href="http://www.weibo.com/zzsjyj" target="_blank" aria-label="郑州市教育局新浪微博" aria-roledescription="图片链接,在新窗口中打开"><img src="r/cms/jyj/cn/images/sus1.jpg" alt="郑州市教育局新浪微博" aria-hidden="true"></a></li>
+			<li style="border:solid 1px #ddd;" aria-label="图片，郑州市教育局微信二维码"><img src="r/cms/jyj/cn/images/zzjy85.jpg" alt="郑州市教育局微信二维码" aria-hidden="true"></li>
+		</ul>
+		<a class="close" href="javascript: void(0);" aria-roledescription="" aria-label="关闭按钮 敲回车关闭"><img src="r/cms/jyj/cn/images/close.png" aria-hidden="true"></a>
+	</div>
+	<script type="text/javascript">
+		(function() {
+			$(".close").click(function(){
+				$(this).parent().hide();
+			});
+		})()
+	</script>
+<div class="index-float" style="margin: 5px; z-index: 99; left: 0px; bottom: 0px;"><a href="https://tousu.www.gov.cn/dc/2024yxyshjjs/index.htm" target="_blank" title="国务院“互联网+督查”平台面向社会征集关于影响营商环境建设问题线索" aria-roledescription="图片链接,在新窗口中打开"><img src="r/cms/global/float/images/gwy_hlwdc_yshj_20240201a.jpg"></a><em tabindex="0" title="关闭" aria-label="关闭按钮，按回车键关闭飘窗"></em></div><div class="index-float hnzwfw-float" style="margin: 5px; z-index: 99; left: 0px; bottom: 230px; padding: 5px; width: 300px; background: rgb(255, 255, 255); box-sizing: border-box; border: 1px solid rgb(165, 165, 165);"><a href="https://zz.hnzwfw.gov.cn/zzzw/item/deptInfo.do?deptUnid=001003008002010&amp;deptName=%E5%B8%82%E6%95%99%E8%82%B2%E5%B1%80&amp;areaCode=410100000000&amp;region=410100000000&amp;creditCode=11410100005252266D" target="_blank" title="河南政务服务网" aria-roledescription="图片链接,在新窗口中打开" id="imghnzwfw2021"><img src="https://static.hnzwfw.gov.cn/lib/images/header-logo.png"></a><em tabindex="0" title="关闭" aria-label="关闭按钮，按回车键关闭飘窗"></em></div></body></html>

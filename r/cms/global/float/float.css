@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+.index-float {
+	position: fixed;
+}
+
+@media ( max-width :1000px) {
+	.index-float {
+		display: none !important;
+	}
+}
+
+.index-float>em {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 3px;
+	box-sizing: unset;
+	width: 11px;
+	height: 11px;
+	font-family: Simsun;
+	font-size: 12px;
+	text-align: center;
+	line-height: 11px;
+	color: white;
+	font-style: normal;
+	cursor: pointer;
+	background-color: #000;
+	opacity: .33;
+	filter: alpha(opacity = 33);
+}
+
+.index-float>em:before {
+	content: "╳";
+}
+
+.index-float>em:hover {
+	opacity: .6;
+	filter: alpha(opacity = 60);
+}
+
+.index-float>div, .index-float>a {
+	display: block;
+}
+
+.index-float img {
+	width: 100%;
+	display: block;
+}
