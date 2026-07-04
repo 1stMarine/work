@@ -120,87 +120,77 @@
 		<script type="text/javascript" src="r/cms/jyj/cn/js/tabs.js"></script>
 		<script type="text/javascript" src="r/cms/jyj/cn/js/dudu.js"></script>
 		<script type="text/javascript" src="r/cms/analytics.js"></script>
-		<style type="text/css">
-		/* ===== 整体放大 + 顶部布局修复 ===== */
+			<style type="text/css">
+		/* ===== 整体放大，菜单保持单行 ===== */
 		body{ font-size:18px; }
-		.main-wrap{ width:1200px; }
 
-		/* 顶部栏 flex 单行布局 */
-		.max-wrap.top-bar > .main-wrap{
-			display:flex; align-items:center; flex-wrap:nowrap;
-		}
-		.max-wrap.top-bar > .main-wrap > div{ float:none; }
-		.max-wrap.top-bar .nav-bar{ flex:1 1 auto; min-width:0; }
-		.max-wrap.top-bar .version-links{
-			flex:0 0 auto; margin:0 10px; white-space:nowrap;
-		}
-		.max-wrap.top-bar .top-link{
-			flex:0 0 auto; margin-top:0; padding-left:5px; white-space:nowrap;
-		}
-
-		/* 菜单加高加大 */
+		/* 菜单加高，padding 收紧确保7项不换行 */
 		#menu > ul > li > a{
-			height:56px; line-height:56px; padding:0 20px; font-size:1.1em;
+			height:52px; line-height:52px; padding:0 10px; font-size:1.05em;
 		}
-		#menu > ul > li ul{ top:56px; font-size:0.95em; line-height:34px; }
-		#menu > ul > li ul a{ padding:0.4em 0; }
+		#menu > ul > li ul{ top:52px; font-size:0.9em; line-height:32px; }
+		#menu > ul > li ul a{ padding:0.3em 0; }
 
-		/* 搜索栏适配 */
-		.find-bar input{ height:30px; line-height:30px; }
-		.find-bar input[type="text"]{ width:120px; font-size:0.85em; }
-		.find-bar input[type="submit"]{ width:30px; }
+		/* 搜索栏收紧 */
+		.find-bar input{ height:28px; line-height:28px; }
+		.find-bar input[type="text"]{ width:80px; font-size:0.8em; }
+		.find-bar input[type="submit"]{ width:26px; }
 
-		/* 顶部链接字号 */
-		.top-bar .version-links a{ font-size:15px; line-height:34px; }
-		.top-link{ font-size:0.95em; }
-		.top-link .user > a{ font-size:15px; }
+		/* 顶部右侧链接紧凑 */
+		.top-bar .version-links{ margin:6px 0; }
+		.top-bar .version-links a{ font-size:14px; line-height:28px; margin-left:6px; }
+		.top-link{ font-size:0.9em; margin-top:8px; }
+		.top-link .user > a{ font-size:14px; }
 
-		/* banner 加高 */
-		.banner-bar{ height:560px; }
-		.banner-bar.sub-banner{ height:240px; }
+		/* banner */
+		.banner-bar{ height:520px; }
+		.banner-bar.sub-banner{ height:220px; }
 
-		/* 列宽适配 */
-		.col-a-narrow{ width:500px; }
-		.col-a-wide{ width:680px; }
-		.col-b-wide{ width:120px; padding:50px 0 50px 15px; }
+		/* 列宽微调 */
+		.col-a-narrow{ width:460px; }
+		.col-a-wide{ width:520px; }
+		.col-b-wide{ width:110px; padding:50px 0 50px 10px; }
 
-		/* 信息公开背景高度 */
-		.wrap-bg01{ height:320px; }
-
-		/* 新闻列表字号 */
-		.news-list a{ font-size:0.95em; }
-		.news-list.index-has-icon a span{ font-size:0.95em; }
-		.node-list .news-list a em{ font-size:0.85em; }
-
-		/* 图标列表文字 */
-		.icon-list li span{ font-size:0.95em; }
-		.icon-list li em{ font-size:0.85em; }
-
-		/* 焦点图 */
-		.focus-pic{ width:500px; }
-		.focus-img.owl-carousel .item{ padding-top:60%; }
+		/* 背景 */
+		.wrap-bg01{ height:300px; }
+		.focus-pic{ width:460px; }
 
 		/* 通知 */
-		.notice{ font-size:1em; height:34px; line-height:34px; }
+		.notice{ font-size:1em; height:32px; line-height:32px; }
 
 		/* 标题 */
-		.big-title{ font-size:1.4em; }
-		.box-01 .title{ font-size:1.2em; }
+		.big-title{ font-size:1.3em; }
+		.box-01 .title{ font-size:1.15em; }
 		.small-title .title-name{ font-size:1.05em; }
 
-		/* 底部版权 */
+		/* 文字 */
+		.news-list a{ font-size:0.95em; }
+		.node-list .news-list a em{ font-size:0.85em; }
+		.icon-list li span{ font-size:0.95em; }
+		.icon-list li em{ font-size:0.85em; }
 		.copyright{ font-size:0.95em; }
 
-		/* 响应式 - 小屏幕保持可用 */
-		@media screen and (max-width:1200px){
-			.main-wrap{ width:1000px; }
-			.max-wrap.top-bar > .main-wrap{ flex-wrap:wrap; }
+		/* -------- 响应式 -------- */
+		@media screen and (max-width:1100px){
+			#menu > ul > li > a{ padding:0 6px; font-size:0.95em; }
+			.top-bar .version-links a{ margin-left:3px; font-size:13px; }
+			.find-bar input[type="text"]{ width:60px; }
 		}
+
 		@media screen and (max-width:1000px){
-			.main-wrap{ width:100%; }
 			body{ font-size:16px; }
+			.main-wrap{ width:100%; }
+			#menu > ul > li > a{ height:48px; line-height:48px; padding:0 13px; font-size:inherit; }
+			#menu > ul > li ul{ top:48px; }
+			.banner-bar{ height:auto; }
 			.focus-pic{ width:100%; float:none; }
 			.col-a-narrow, .col-a-wide, .col-b-wide{ width:100%; display:block; }
+			.top-bar .version-links{ margin:9px 0; }
+			.top-bar .version-links a{ font-size:13px; line-height:30px; margin-left:15px; }
+			.top-link{ margin-top:12px; font-size:0.875em; }
+			.find-bar input[type="text"]{ width:100px; }
+			.notice{ height:30px; line-height:30px; }
+			.wrap-bg01{ height:290px; }
 		}
 	</style>
 	</head>
